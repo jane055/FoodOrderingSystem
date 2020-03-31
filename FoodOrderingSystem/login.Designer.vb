@@ -75,18 +75,18 @@ Partial Class login
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "Register an Account here!"
         '
-        'Form1
+        'login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(116, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(574, 334)
         Me.Controls.Add(Me.LinkLabel1)
         Me.Controls.Add(Me.lblSystemName)
         Me.Controls.Add(Me.btnLogin)
         Me.Controls.Add(Me.txtPassword)
         Me.Controls.Add(Me.txtStaffID)
-        Me.Name = "Form1"
+        Me.Name = "login"
         Me.Text = "Login"
         Me.ResumeLayout(False)
         Me.PerformLayout()

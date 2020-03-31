@@ -79,7 +79,7 @@ Partial Class Sign_Up
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(216, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(139, Byte), Integer))
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(229, Byte), Integer), CType(CType(155, Byte), Integer), CType(CType(116, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(567, 328)
         Me.Controls.Add(Me.llblReturnLogin)
         Me.Controls.Add(Me.txtPass)
