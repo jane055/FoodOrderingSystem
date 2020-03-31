@@ -116,6 +116,12 @@
     <Compile Include="Sign Up.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Starter.Designer.vb">
+      <DependentUpon>Starter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Starter.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="login.resx">
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sign Up.resx">
       <DependentUpon>Sign Up.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Starter.resx">
+      <DependentUpon>Starter.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
